@@ -1,12 +1,11 @@
-let container = document.getElementById('#container')
-container.textContent = 'test'
+let container = document.querySelector('#grid')
 
 let draw = document.createElement('div')
 
-draw.style = 'background-color: red; height:20px; width:20px;'
+draw.style = 'background-color: red; height:50px; width:50px;'
 
+let amount = 50;
 
-
-container.appendChild(draw)
-container.appendChild(draw)
-container.appendChild(draw)
+for(let i = 1; i> amount; i++){
+    container.appendChild(draw)
+}

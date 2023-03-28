@@ -1,7 +1,54 @@
-#container{
+body{
     background-color: #212121;
-    padding-left: 40%;
-    padding-right: 15%;
-    height:4500px;
+    color:white;
+    font-family: sans-serif
+}
+.container{
+    display:flex;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom:30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 730px;
+    gap:30px;
+}
+.color{
+    background-color: grey;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    width: 25%;
+    border-radius: 10px;
+}
+.color-chooser{
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color: white;
+    height:590px;
+    margin-left:10px;
+    margin-right: 10px;
+    display:flex;
+    flex-direction: column;
+    
+}
+.drawing{
+    flex: 1;
+    background-color: grey;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius:10px;
+}
 
+.paint{
+    height: 50%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-wrap: wrap;
 }
