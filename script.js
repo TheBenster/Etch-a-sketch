@@ -1,11 +1,18 @@
-let container = document.querySelector('#grid')
+let container = document.querySelector('#grid');
+let default_color = '#212121';
 
-let draw = document.createElement('div')
 
-draw.style = 'background-color: red; height:50px; width:50px;'
 
-let amount = 50;
+function makeRows(rows, cols) {
+  container.style.setProperty('--grid-rows', rows);
+  container.style.setProperty('--grid-cols', cols);
+  for (c = 0; c < (rows * cols); c++) {
+    let cell = document.createElement("div");
+    cell.style = 'height:7px; width:7px; gap:0'
+    cell.innerText = (c + 1);
+    container.appendChild(cell).className = "grid-item";
+  };
+};
+let gridItem = document.querySelector('.grid-item')
 
-for(let i = 1; i> amount; i++){
-    container.appendChild(draw)
-}
+makeRows(16, 16);
