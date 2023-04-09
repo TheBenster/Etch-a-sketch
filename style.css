@@ -111,7 +111,6 @@ button#random{
 
 button#random h3{
     display:flex;
-    justify-content: end;
     align-items: center;
     text-align: center;
     margin-left:25%;
