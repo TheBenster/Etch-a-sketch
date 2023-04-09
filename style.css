@@ -5,7 +5,7 @@ body{
 }
 .container{
     display:flex;
-    background-color: white;
+    background-color: #212121;
     margin-top: 30px;
     margin-bottom:30px;
     margin-left: 15px;
@@ -15,17 +15,17 @@ body{
     flex-wrap: wrap;
 }
 .color{
-    background-color: grey;
+    background-color: #212121;
     margin-top: 60px;
     margin-bottom: 60px;
-    margin-left: 40px;
+    margin-left: 80px;
     width: 25%;
     border-radius: 10px;
 }
 .color-chooser{
     margin-top:10px;
     margin-bottom:10px;
-    background-color: white;
+    background-color: #212121;
     height:97%;
     margin-left:10px;
     margin-right: 10px;
@@ -54,8 +54,57 @@ body{
     align-content: center;
     justify-content: center;
     gap: 20px;
-    margin-top: 50%;
+    margin-top: 10%;
     margin-right: 20px;
     margin-left: 20px;
     flex-wrap: wrap;
+}
+
+input#colorpicker{
+    height: 300px;
+    width: 500px;
+}
+
+h2#Head{
+    color:rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h3#Head{
+    color: rgb(255, 255, 255);
+    text-align:center;
+}
+
+button#clear{
+    border-radius:12px;
+    width:300px;
+    border:none;
+    height: 40px;
+    margin-left:20px;
+    margin-top: 35px;
+}
+button#clear:hover{
+    cursor:pointer;
+    background-color: #1e1c1c;
+    color:white;
+}
+
+button#random{
+    display:flex;
+    border-radius:12px;
+    width: 300px;
+    border:none;
+    height:40px;
+    margin-left:40px;
+    margin-top:35px;
+}
+
+.buttons{
+    display:flex;
+    align-items: center;
+    margin-right:20px;
+    justify-content: center;
 }

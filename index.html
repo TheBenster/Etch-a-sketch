@@ -12,14 +12,17 @@
     <div class="container">
         <div class="color">
             <div class="color-chooser">
+                <h2 id="Head">Etch-a-Sketch</h2>
+                <h3 id="Head">Pick a color and go ham!</h3>
                 <div class="paint">
-                    <div class="red" id='color' style="background-color: red; width:60px; height:60px;"></div>
-                    <div class="blue" id='color' style="background-color: blue; width:60px; height:60px;"></div>
-                    <div class="yellow" id='color' style="background-color: yellow; width: 60px; height: 60px;";></div>
-                    <div class="orange" id='color' style="background-color: orange; width: 60px; height: 60px;"></div>
-                    <div class="purple" id='color' style="background-color: purple; width: 60px; height: 60px;"></div>
+                    <input type="color" id="colorpicker">
+                </div>
+                <div class="buttons">
+                <button id='clear'><h3 style="margin-bottom:0px;margin-top:0px; text-align:center; justify-content: center;">Clear</h3></button>
+                <button id="clear" class="random"><h3 style="margin-top:0px;margin-bottom:0px;justify-content: center;">Random</h3></button>
+                </div>
             </div>
-            </div></div>
+        </div>
         <div class="drawing" id="grid">
             
         </div>
