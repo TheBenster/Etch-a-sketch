@@ -115,6 +115,7 @@ button#random h3{
     text-align: center;
     margin-left:25%;
     margin-right:25%;
+    justify-content:center;
 }
 
 @keyframes rainbow-bg{
